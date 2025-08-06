@@ -1,5 +1,5 @@
 import { Footer, Layout, Navbar } from 'nextra-theme-docs';
-import { Banner, Head } from 'nextra/components';
+import { Head } from 'nextra/components';
 import { getPageMap } from 'nextra/page-map';
 import './globals.css';
 
@@ -8,20 +8,19 @@ export const metadata = {
 	// For more information on metadata API, see: https://nextjs.org/docs/app/building-your-application/optimizing/metadata
 };
 
-const banner = <Banner storageKey="some-key">Nextra 4.0 is released 🎉</Banner>;
 const navbar = (
 	<Navbar
-		logo={<b>Nextra</b>}
+		logo={<b>La Storia di Vito Bonanno</b>}
 		// ... Your additional navbar options
 	/>
 );
-const footer = <Footer>MIT {new Date().getFullYear()} © Nextra.</Footer>;
+const footer = <Footer>{new Date().getFullYear()} © Fabio Somaglia.</Footer>;
 
 export default async function RootLayout({ children }: Readonly<{ children: React.ReactNode }>) {
 	return (
 		<html
 			// Not required, but good for SEO
-			lang="en"
+			lang="it"
 			// Required to be set
 			dir="ltr"
 			// Suggested by `next-themes` package https://github.com/pacocoursey/next-themes#with-app
@@ -34,10 +33,16 @@ export default async function RootLayout({ children }: Readonly<{ children: Reac
 			</Head>
 			<body>
 				<Layout
-					banner={banner}
 					navbar={navbar}
 					pageMap={await getPageMap()}
-					docsRepositoryBase="https://github.com/shuding/nextra/tree/main/docs"
+					toc={{ title: 'In questa pagina' }}
+					editLink={null}
+					feedback={{ content: null }}
+					themeSwitch={{
+						dark: 'Scuro',
+						light: 'Chiaro',
+						system: 'Sistema'
+					}}
 					footer={footer}
 					// ... Your additional layout options
 				>
