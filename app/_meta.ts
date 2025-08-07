@@ -1,40 +1,26 @@
 import type { MetaRecord } from 'nextra';
 
 const meta: MetaRecord = {
-	index: {
-		title: 'Chi era Vito Bonanno',
+	'*': {
 		type: 'page',
 		theme: {
 			timestamp: false
 		}
+	},
+	index: {
+		title: 'Chi era Vito Bonanno'
 	},
 	memorie: {
-		title: 'Memorie',
-		type: 'page',
-		theme: {
-			timestamp: false
-		}
+		title: 'Memorie'
 	},
 	foto: {
-		title: 'Foto',
-		type: 'page',
-		theme: {
-			timestamp: false
-		}
+		title: 'Foto'
 	},
 	considerazioni: {
-		title: 'Considerazioni',
-		type: 'page',
-		theme: {
-			timestamp: false
-		}
+		title: 'Considerazioni'
 	},
 	contatti: {
-		title: 'Contatti',
-		type: 'page',
-		theme: {
-			timestamp: false
-		}
+		title: 'Contatti'
 	}
 };
 
