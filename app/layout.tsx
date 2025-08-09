@@ -1,5 +1,5 @@
 import { Footer, Layout, Navbar } from 'nextra-theme-docs';
-import { Head } from 'nextra/components';
+import { Head, Search } from 'nextra/components';
 import { getPageMap } from 'nextra/page-map';
 import './globals.css';
 
@@ -12,6 +12,14 @@ const navbar = (
 	<Navbar
 		logo={<b>La Storia di Vito Bonanno</b>}
 		// ... Your additional navbar options
+	/>
+);
+const search = (
+	<Search
+		placeholder="Cerca nelle memorie..."
+		emptyResult="Nessuna corrispondenza"
+		errorText="Errore di ricerca"
+		loading="Caricamento..."
 	/>
 );
 const footer = <Footer>{new Date().getFullYear()} © Fabio Somaglia.</Footer>;
@@ -34,6 +42,7 @@ export default async function RootLayout({ children }: Readonly<{ children: Reac
 			<body>
 				<Layout
 					navbar={navbar}
+					search={search}
 					pageMap={await getPageMap()}
 					toc={{ title: 'In questa pagina' }}
 					editLink={null}
