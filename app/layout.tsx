@@ -22,7 +22,26 @@ const search = (
 		loading="Caricamento..."
 	/>
 );
-const footer = <Footer>{new Date().getFullYear()} © Fabio Somaglia.</Footer>;
+
+const footer = (
+	<Footer className="flex flex-col gap-4 text-sm">
+		<div>
+			<p>
+				Trascrizioni dal diario manoscritto di Vito Bonanno a cura di Roberto Somaglia. Sito web sviluppato da Fabio
+				Somaglia.
+			</p>
+			<a
+				href="http://web.tiscali.it/vito_bonanno/"
+				target="_blank"
+				rel="noopener noreferrer"
+				className="after:content-['_↗'] hover:text-black dark:hover:text-gray-200"
+			>
+				Visita il sito originale di Roberto Somaglia.
+			</a>
+		</div>
+		<p>© {new Date().getFullYear()} Fabio Somaglia.</p>
+	</Footer>
+);
 
 export default async function RootLayout({ children }: Readonly<{ children: React.ReactNode }>) {
 	return (
@@ -44,7 +63,10 @@ export default async function RootLayout({ children }: Readonly<{ children: Reac
 					navbar={navbar}
 					search={search}
 					pageMap={await getPageMap()}
-					toc={{ title: 'In questa pagina' }}
+					toc={{
+						title: 'In questa pagina',
+						backToTop: 'Torna su'
+					}}
 					editLink={null}
 					feedback={{ content: null }}
 					themeSwitch={{
