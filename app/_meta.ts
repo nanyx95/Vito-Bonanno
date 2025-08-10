@@ -18,9 +18,6 @@ const meta: MetaRecord = {
 	},
 	considerazioni: {
 		title: 'Considerazioni'
-	},
-	contatti: {
-		title: 'Contatti'
 	}
 };
 
