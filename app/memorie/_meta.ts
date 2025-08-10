@@ -7,7 +7,7 @@ const meta: MetaRecord = {
 		}
 	},
 	index: {
-		title: 'Note',
+		title: 'Premessa',
 		theme: {
 			typesetting: 'default'
 		}
