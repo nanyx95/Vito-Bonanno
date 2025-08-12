@@ -50,8 +50,8 @@ export function PhotoCarousel({ images }: PhotoCarouselProps) {
 	}, [api, images]);
 
 	return (
-		<div className="mx-auto max-w-2xs sm:max-w-sm md:max-w-md">
-			<Carousel className="w-full max-w-2xs sm:max-w-sm md:max-w-md" setApi={setApi}>
+		<div className="mx-auto max-w-sm sm:max-w-md md:max-w-lg">
+			<Carousel className="w-full max-w-sm sm:max-w-md md:max-w-lg" setApi={setApi}>
 				<CarouselContent>
 					{images.map((image, index) => (
 						<CarouselItem key={index} className="flex items-center justify-center">
@@ -71,12 +71,16 @@ export function PhotoCarousel({ images }: PhotoCarouselProps) {
 						</CarouselItem>
 					))}
 				</CarouselContent>
-				<CarouselPrevious />
-				<CarouselNext />
+				<div className="mt-3 grid grid-cols-[auto_1fr] justify-between gap-5">
+					<div className="grid grid-cols-2 items-center gap-2.5">
+						<CarouselPrevious className="static translate-none" />
+						<CarouselNext className="static translate-none" />
+					</div>
+					<div className="self-center-safe justify-self-end-safe text-sm text-neutral-500 dark:text-neutral-400">
+						Foto {current} di {images.length}
+					</div>
+				</div>
 			</Carousel>
-			<div className="py-2 text-center text-sm text-neutral-500 dark:text-neutral-400">
-				Foto {current} di {images.length}
-			</div>
 		</div>
 	);
 }
