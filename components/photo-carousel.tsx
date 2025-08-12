@@ -55,7 +55,7 @@ export function PhotoCarousel({ images }: PhotoCarouselProps) {
 				<CarouselContent>
 					{images.map((image, index) => (
 						<CarouselItem key={index} className="flex items-center justify-center">
-							<div className="p-1">
+							<figure className="relative">
 								<Image
 									src={image.src}
 									alt={image.alt}
@@ -64,14 +64,19 @@ export function PhotoCarousel({ images }: PhotoCarouselProps) {
 									priority={true}
 									className="rounded-lg"
 								/>
-							</div>
+								<figcaption className="absolute inset-x-1.5 bottom-1.5 rounded-md bg-black/30 px-3 py-2 backdrop-blur-sm">
+									<p className="text-xs text-pretty text-white">{image.alt}</p>
+								</figcaption>
+							</figure>
 						</CarouselItem>
 					))}
 				</CarouselContent>
 				<CarouselPrevious />
 				<CarouselNext />
 			</Carousel>
-			<div className="py-2 text-center text-sm text-neutral-500 dark:text-neutral-400">{images[current - 1]?.alt}</div>
+			<div className="py-2 text-center text-sm text-neutral-500 dark:text-neutral-400">
+				Foto {current} di {images.length}
+			</div>
 		</div>
 	);
 }
