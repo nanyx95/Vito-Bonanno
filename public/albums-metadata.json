@@ -3,11 +3,26 @@
 		"id": "foto-antiche",
 		"displayName": "Prima metà del 1900",
 		"images": [
-			{ "src": "/foto-antiche/vito_1914_a.jpg", "alt": "Ritratto di Vito Bonanno - 1914" },
-			{ "src": "/foto-antiche/vito_1914_b.jpg", "alt": "Primo piano di Vito Bonanno - 1914" },
-			{ "src": "/foto-antiche/vito_mamma_zio_a.jpg", "alt": "Vito Bonanno con la mamma e lo zio" },
-			{ "src": "/foto-antiche/vito_mamma_zio_b.jpg", "alt": "Vito Bonanno con la mamma e lo zio" },
-			{ "src": "/foto-antiche/vito_famiglia.jpg", "alt": "Vito Bonanno con la famiglia" }
+			{
+				"src": "/foto-antiche/vito_1914_a.jpg",
+				"alt": "Ritratto di Vito Bonanno - 1914"
+			},
+			{
+				"src": "/foto-antiche/vito_1914_b.jpg",
+				"alt": "Primo piano di Vito Bonanno - 1914"
+			},
+			{
+				"src": "/foto-antiche/vito_mamma_zio_a.jpg",
+				"alt": "Vito Bonanno con la mamma e lo zio"
+			},
+			{
+				"src": "/foto-antiche/vito_mamma_zio_b.jpg",
+				"alt": "Vito Bonanno con la mamma e lo zio"
+			},
+			{
+				"src": "/foto-antiche/vito_famiglia.jpg",
+				"alt": "Vito Bonanno con la famiglia"
+			}
 		]
 	},
 	{
@@ -18,7 +33,10 @@
 			{ "src": "/foto-militare/agosto_1924_b.jpg", "alt": "Agosto 1924" },
 			{ "src": "/foto-militare/agosto_1924_c.jpg", "alt": "Agosto 1924" },
 			{ "src": "/foto-militare/gaeta_1924.jpg", "alt": "Gaeta - 1924" },
-			{ "src": "/foto-militare/ritratto_1924.jpg", "alt": "Ritratto di Vito Bonanno - 1924" },
+			{
+				"src": "/foto-militare/ritratto_1924.jpg",
+				"alt": "Ritratto di Vito Bonanno - 1924"
+			},
 			{ "src": "/foto-militare/salemi_1942_a.jpg", "alt": "Salemi - 1942" },
 			{ "src": "/foto-militare/salemi_1942_b.jpg", "alt": "Salemi - 1942" }
 		]
@@ -46,11 +64,20 @@
 				"alt": "Nozze di Pina e Marino con Vito Bonanno sullo sfondo"
 			},
 			{ "src": "/foto-anni-50-60/vito_aprile_1958.jpg", "alt": "Aprile 1958" },
-			{ "src": "/foto-anni-50-60/vito_moglie_giovanna.jpg", "alt": "Vito Bonanno e la moglie Giovanna" },
+			{
+				"src": "/foto-anni-50-60/vito_moglie_giovanna.jpg",
+				"alt": "Vito Bonanno e la moglie Giovanna"
+			},
 			{ "src": "/foto-anni-50-60/vito_1954.jpg", "alt": "Vito Bonanno - 1954" },
 
-			{ "src": "/foto-anni-50-60/vito_primo_piano_a.jpg", "alt": "Primo piano di Vito Bonanno" },
-			{ "src": "/foto-anni-50-60/vito_primo_piano_b.jpg", "alt": "Primo piano di Vito Bonanno" }
+			{
+				"src": "/foto-anni-50-60/vito_primo_piano_a.jpg",
+				"alt": "Primo piano di Vito Bonanno"
+			},
+			{
+				"src": "/foto-anni-50-60/vito_primo_piano_b.jpg",
+				"alt": "Primo piano di Vito Bonanno"
+			}
 		]
 	},
 	{
@@ -65,7 +92,10 @@
 				"src": "/foto-america/vito_1922_stradale_miniera.jpg",
 				"alt": "Stradale della miniera Shawville. Da sinistra a destra Tony Nicolazzi, Ida Galliano, Tony Sacco, Angiolina Galliano e Vito Bonanno. - Centerville, 1922"
 			},
-			{ "src": "/foto-america/mery_morsili_1920.jpg", "alt": "Mery Morsili - Centerville, 1920" },
+			{
+				"src": "/foto-america/mery_morsili_1920.jpg",
+				"alt": "Mery Morsili - Centerville, 1920"
+			},
 			{
 				"src": "/foto-america/vito_erminio_ricotti_1922.jpg",
 				"alt": "Da sinistra a destra Vito Bonanno e Erminio Ricotti di Trieste. - Centerville, 1922"
@@ -74,7 +104,10 @@
 				"src": "/foto-america/tony_tomas_melina_nicolazzi_1922.jpg",
 				"alt": "Tony, Tomas e Melina Nicolazzi. - Centerville, 1923"
 			},
-			{ "src": "/foto-america/tony_nicolazzi_1922.jpg", "alt": "Tony Nicolazzi - miniera n.30, 1922" },
+			{
+				"src": "/foto-america/tony_nicolazzi_1922.jpg",
+				"alt": "Tony Nicolazzi - miniera n.30, 1922"
+			},
 			{
 				"src": "/foto-america/mery_morsili_1922.jpg",
 				"alt": "Meriy Morsili nei campi di pascoli dove si vede a distanza la casa di Tony Grinco. - Centerville, 1922"
@@ -93,24 +126,54 @@
 			{ "src": "/foto-recenti/vito_1986_b.jpg", "alt": "Vito Bonanno - 1986" },
 			{ "src": "/foto-recenti/vito_1983.jpg", "alt": "Vito Bonanno - 1983" },
 			{ "src": "/foto-recenti/vito.jpg", "alt": "Vito Bonanno" },
-			{ "src": "/foto-recenti/famiglia_1976.jpg", "alt": "Vito Bonanno con la famiglia - 1976" },
+			{
+				"src": "/foto-recenti/famiglia_1976.jpg",
+				"alt": "Vito Bonanno con la famiglia - 1976"
+			},
 			{ "src": "/foto-recenti/vito_1977_a.jpg", "alt": "Vito Bonanno - 1977" },
 			{ "src": "/foto-recenti/vito_1977_b.jpg", "alt": "Vito Bonanno - 1977" },
-			{ "src": "/foto-recenti/vito_ritratto_1.jpg", "alt": "Ritratto di Vito Bonanno" },
-			{ "src": "/foto-recenti/vito_ritratto_2.jpg", "alt": "Ritratto di Vito Bonanno" },
-			{ "src": "/foto-recenti/vito_raffaella_parodi.jpg", "alt": "Vito Bonanno e la nipote Raffaella Parodi" }
+			{
+				"src": "/foto-recenti/vito_ritratto_1.jpg",
+				"alt": "Ritratto di Vito Bonanno"
+			},
+			{
+				"src": "/foto-recenti/vito_ritratto_2.jpg",
+				"alt": "Ritratto di Vito Bonanno"
+			},
+			{
+				"src": "/foto-recenti/vito_raffaella_parodi.jpg",
+				"alt": "Vito Bonanno e la nipote Raffaella Parodi"
+			}
 		]
 	},
 	{
 		"id": "foto-ci",
 		"displayName": "Le carte di identità di Vito Bonanno",
 		"images": [
-			{ "src": "/foto-ci/ci_1948_fronte.jpg", "alt": "Carta d'identità di Vito Bonanno - 1948" },
-			{ "src": "/foto-ci/ci_1948.jpg", "alt": "Carta d'identità di Vito Bonanno - 1948" },
-			{ "src": "/foto-ci/ci_1948_firma.jpg", "alt": "Firma sulla carta d'identità di Vito Bonanno - 1948" },
-			{ "src": "/foto-ci/ci_1958_fronte.jpg", "alt": "Carta d'identità di Vito Bonanno - 1958" },
-			{ "src": "/foto-ci/ci_1958_a.jpg", "alt": "Carta d'identità di Vito Bonanno - 1958" },
-			{ "src": "/foto-ci/ci_1958_b.jpg", "alt": "Carta d'identità di Vito Bonanno - 1958" }
+			{
+				"src": "/foto-ci/ci_1948_fronte.jpg",
+				"alt": "Carta d'identità di Vito Bonanno - 1948"
+			},
+			{
+				"src": "/foto-ci/ci_1948.jpg",
+				"alt": "Carta d'identità di Vito Bonanno - 1948"
+			},
+			{
+				"src": "/foto-ci/ci_1948_firma.jpg",
+				"alt": "Firma sulla carta d'identità di Vito Bonanno - 1948"
+			},
+			{
+				"src": "/foto-ci/ci_1958_fronte.jpg",
+				"alt": "Carta d'identità di Vito Bonanno - 1958"
+			},
+			{
+				"src": "/foto-ci/ci_1958_a.jpg",
+				"alt": "Carta d'identità di Vito Bonanno - 1958"
+			},
+			{
+				"src": "/foto-ci/ci_1958_b.jpg",
+				"alt": "Carta d'identità di Vito Bonanno - 1958"
+			}
 		]
 	}
 ]
