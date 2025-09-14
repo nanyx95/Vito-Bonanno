@@ -2,7 +2,7 @@
 
 This website contains the memories from the diary of Vito Bonanno (1896 - 1992), my great-grandfather.
 
-The website is built with [Next.js](https://nextjs.org) and [Nextra](https://nextra.site), a tool for building content-focused websites. The styling is done with [Tailwind CSS](https://tailwindcss.com).
+The website is built with [Next.js](https://nextjs.org) and [Nextra](https://nextra.site). The styling is done with [Tailwind CSS](https://tailwindcss.com).
 
 ## Content
 
