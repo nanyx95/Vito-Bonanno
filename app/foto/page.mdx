@@ -3,8 +3,9 @@ title: Vito Bonanno - Foto
 description: Fotografie che ritraggono Vito Bonanno, la sua famiglia, i suoi amici e i suoi conoscenti
 ---
 
+import albumsData from '../../public/albums-metadata.json';
 import { PhotoGallery } from '@/components/photo-gallery';
 
 # Foto
 
-<PhotoGallery />
+<PhotoGallery albums={albumsData} />
